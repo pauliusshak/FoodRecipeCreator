@@ -1,0 +1,305 @@
+* {
+  font-family: "Yu Gothic UI Light";
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin: 2px;
+}
+.column{flex-direction: column;
+}
+.box {
+  width: 400px;
+  height: 400px;
+}
+
+.flex {
+  display: flex;
+}
+
+
+.column {
+  flex-direction: column;
+}
+
+.toolbar {
+  height: 100px;
+  background-color: burlywood;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.spc-a {
+  justify-content: space-around;
+}
+.spc-btw {
+  justify-content: space-between;
+}
+input {
+  margin: 10px;
+  width: 300px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 20px;
+  text-align: center;
+}
+.commInp{
+  word-break: break-word;
+  margin: 10px;
+  width: 300px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+button {
+  border-radius: 8px;
+  font-size: 20px;
+  color: black;
+  width: 150px;
+  height: 40px;
+  border: 3px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+button:hover{
+  background-color: tomato;
+}
+
+.postCard {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  word-break:break-word;
+  width:470px;
+  border: 4px solid;
+  border-radius: 8px;
+  margin:5px;
+  height: 700px;
+  padding:10px;
+  overflow: auto;
+}
+.favoriteCard{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width:400px;
+  border: 4px solid;
+  border-radius: 8px;
+  margin:5px;
+  height: 280px;
+  padding:10px;
+  cursor:pointer;
+  background-color:  #fae19d;
+}
+.singleRecipe {
+  /*align-items: center;*/
+  /*display: flex;*/
+  word-break: break-word;
+  flex-direction: column;
+  width: 915px;
+  border: 4px solid;
+  border-radius: 8px;
+  margin: 5px;
+  padding: 10px;
+}
+.cardBox {
+  display: flex;
+  align-items: center ;
+  justify-content: center;
+  width:750px;
+  height: 85vh;
+  background-color: rosybrown;
+  flex-direction: column;
+}
+
+.welcome{
+  width:100%;
+  height:100%;
+}
+a{
+  margin:20px;
+  text-decoration: none;
+  color:black;
+}
+
+.center{
+  align-items: center;
+  justify-content: center;
+}
+.commBtn{
+  width:140px;
+  height: 40px;
+  background-color: #d2c9c9;
+  border:1px solid;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 3px;
+}
+.oneComm{
+  border:solid 1px;
+  border-radius:5px;
+  margin: 2px;
+  display: flex;
+}
+.wrap{
+  flex-wrap: wrap;
+}
+.ml170{
+  margin-left: 170px;
+}
+.ml10{
+  margin-left: 10px;
+}
+.ml20{
+  margin-left: 20px;
+}
+.ml50{
+  margin-left: 50px;
+}
+.smallLogo1{
+  width:850px;
+}
+.smallLogo img{
+  width:15px;
+  height:15px;
+  cursor:pointer;
+}
+
+.starLogo img{
+  margin-top: 20px;
+  width:40px;
+  height:40px;
+}
+.m10{
+  margin: 10px;
+}
+.mt100{
+  margin-top: 100px;}
+.smallLogo1 img{
+  width: 60px;
+  height:60px;
+  cursor: pointer;
+}
+.ml350{
+  margin-left: 350px;
+}
+.clickHere{
+  margin-left: 50px;
+  width: 400px;
+  height:100px;
+  cursor:pointer;
+}
+.smallLogo2{
+  width:40px;
+  height:40px;
+}
+.smallLogo3{
+  background-color: white;
+  border-radius: 8px;
+  border:solid 0.5px;
+}
+.smallLogo3 img{
+  width:15px;
+  height:15px;
+}
+.fontBig{
+  font-size: 50px;
+}
+.modalBox{
+  width: 800px;
+  align-items: center;
+  display: flex;
+  word-break: break-word;
+  flex-direction: column;
+  border: 4px solid;
+  border-radius: 8px;
+  margin:5px;
+  padding:10px;
+  overflow: auto;
+  min-height:300px;
+  max-height: 700px;
+
+}
+.showBox{
+  width:200px;
+  border: 4px solid;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.ratingBox{
+  width: 600px;
+  word-break: break-word;
+  border: 4px solid;
+  border-radius: 8px;
+  margin:5px;
+  padding:10px;
+  overflow: auto;
+  min-height:300px;
+  max-height: 500px;
+}
+.fontMid{
+  font-size: 40px;
+}
+.mt50{
+  margin-top: 50px;
+}
+.slider {
+  -webkit-appearance: none;
+  width: 200px;
+  height: 15px;
+  border-radius: 5px;
+  background: burlywood;
+}
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #fae19d;
+  cursor: pointer;
+}
+.border{
+  border: 1px solid;
+  padding: 10px;
+  background-color: burlywood;
+
+}
+.mt20{
+  margin-top: 20px;
+}
+.hello{
+  width: 100%;
+  height: 30vh;
+  background-image: url("https://img4.goodfon.com/wallpaper/nbig/3/25/vkusniashki-lavash-salat-miaso-tykva-raznosti-eda.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.comment {
+  width: 50%;
+  height: 100px;
+  padding: 10px;
+  background: #fae19d;
+  font: 1.4em/1.6em cursive;
+  border-radius:8px;
+  border:2px solid;
+  font-family: "Yu Gothic UI Light";
+  color: black;}
